@@ -22,8 +22,19 @@ my_name = "John Brooksby"
 print(my_name)
 
 #Input
-name = input("What's Your Name: ")
-print(f'Hello {name}')
-num1 = input("Enter A Number: ")
-num2 = input("Enter Another Number: ")
-print(f'{num1} + {num2} = {int(num1)+int(num2)}')
+# name = input("What's Your Name: ")
+# print(f'Hello {name*10}')
+# print(f'Hello {name}'*10)
+# num1 = input("Enter A Number: ")
+# num2 = input("Enter Another Number: ")
+# print(f'{num1} + {num2} = {int(num1)+int(num2)}')
+
+#IF / ELIF / ELSE
+x = input("Guess a number ")
+print (x)
+if int(x) == 41:
+    print("X Does in fact equal 41!")
+elif int(x) > 41:
+    print("Too high!")
+else:
+    print("Too low")
