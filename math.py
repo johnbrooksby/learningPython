@@ -40,23 +40,33 @@
 #     print("Too low")
 
 #Choose your own adventure sandbox
-from os import system
-system("clear")
-print("Welcome To Choose Your Own Adventure!")
-print("The goal is to find the Python Princess...")
-name = input("Enter Your Name: ")
-name = name.lower()
-system("clear")
-print("You're standing in front of two doors...")
-print("Do you want the door on the left or right?")
-question = input().lower()
-while(question != "left" and question != "right"):
-    print("Not a valid answer.  Try again: ")
-    question = input().lower()
-if question == "left":
-    system("clear")
-    print("You fell into a pit and died! GAME OVER")
-else:
-    system("clear")
-    print(f"Congratulations {name.capitalize()} you found")
-    print("the Python Princess! YOU WIN!")
+# from os import system
+# system("clear")
+# print("Welcome To Choose Your Own Adventure!")
+# print("The goal is to find the Python Princess...")
+# name = input("Enter Your Name: ")
+# name = name.lower()
+# system("clear")
+# print("You're standing in front of two doors...")
+# print("Do you want the door on the left or right?")
+# question = input().lower()
+# while(question != "left" and question != "right"):
+#     print("Not a valid answer.  Try again: ")
+#     question = input().lower()
+# if question == "left":
+#     system("clear")
+#     print("You fell into a pit and died! GAME OVER")
+# else:
+#     system("clear")
+#     print(f"Congratulations {name.capitalize()} you found")
+#     print("the Python Princess! YOU WIN!")
+
+
+#Lists
+names = ["John", "Mary"]
+# names.append("Bob")
+# names.insert(1, "Bob")
+names.extend(["Tim", "Bob"])
+names.remove("Bob")
+names.pop(1)
+print(names)
