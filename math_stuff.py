@@ -1,6 +1,6 @@
 # print(3 + 2)
 
-#F-strings
+# F-strings
 # print(f"3 + 2 = {3 + 2}")
 # print(f"5 - 1 = {5 - 1}")
 # print(f"3 * 4 = {3 * 4}")
@@ -8,7 +8,7 @@
 # print(f"35 % 3 = {35 % 3}")
 # print(f"2 ** 4 = {2 ** 4}")
 
-#Comparison operators
+# Comparison operators
 # print(5 > 1)
 # print(f"5 == 1: {5 == 1}")
 # print(f"5 != 1: {5 != 1}")
@@ -17,7 +17,7 @@
 # print(f"5 < 1: {5 < 1}")
 # print(f"5 <= 1: {5 <= 1}")
 
-#Variable assignment
+# Variable assignment
 # my_name = "John Brooksby"
 # print(my_name)
 
@@ -62,10 +62,10 @@
 #     print("the Python Princess! YOU WIN!")
 
 
-#Lists
+# Lists
 names = ["John", "Mary"]
-# names.append("Bob")
-# names.insert(1, "Bob")
+names.append("Bob")
+names.insert(1, "Bob")
 names.extend(["Tim", "Bob"])
 names.remove("Bob")
 names.pop(1)
