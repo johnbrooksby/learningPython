@@ -63,10 +63,25 @@
 
 
 # Lists
-names = ["John", "Mary"]
-names.append("Bob")
-names.insert(1, "Bob")
-names.extend(["Tim", "Bob"])
-names.remove("Bob")
-names.pop(1)
-print(names)
+# names = ["John", "Mary"]
+# names.append("Bob")
+# names.insert(1, "Bob")
+# names.extend(["Tim", "Bob"])
+# names.remove("Bob")
+# names.pop(1)
+# print(names)
+
+#While loops
+# num = 0
+# while num < 10:
+#     print(num)
+#     num += 1
+
+#For loops
+# for num in range(20):
+#     print(num)
+# for num in range(18,20):
+#     print(num)
+names = ["John", "Mary", "Tim"]
+for jerry in names:
+    print(jerry)
