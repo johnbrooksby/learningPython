@@ -82,6 +82,20 @@
 #     print(num)
 # for num in range(18,20):
 #     print(num)
-names = ["John", "Mary", "Tim"]
-for jerry in names:
-    print(jerry)
+# names = ["John", "Mary", "Tim"]
+# for jerry in names:
+#     print(jerry)
+# else:
+#     print("")
+#     print("That's all folks!")
+
+#Fizz Buzz
+for num in range(1,101):
+    if num % 15 == 0:
+        print("Fizz Buzz")
+    elif num % 3 == 0:
+        print("Fizz")
+    elif num % 5 == 0:
+        print("Buzz")
+    else:
+        print(num)
