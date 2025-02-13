@@ -90,12 +90,32 @@
 #     print("That's all folks!")
 
 #Fizz Buzz
-for num in range(1,101):
-    if num % 15 == 0:
-        print("Fizz Buzz")
-    elif num % 3 == 0:
-        print("Fizz")
-    elif num % 5 == 0:
-        print("Buzz")
-    else:
-        print(num)
+# for num in range(1,101):
+#     if num % 15 == 0: print("Fizz Buzz")
+#     elif num % 3 == 0: print("Fizz")
+#     elif num % 5 == 0: print("Buzz")
+#     else: print(num)
+
+#Functions
+def is_even(x):
+    return x % 2 == 0
+# print(is_even(96))
+
+def namer(first = "John", last = "Elder"):
+    print(f"First Name: {first}")
+    print(f"Last Name: {last}")
+
+# namer("Adam")
+
+def fizzbuzz():
+    num = int(input("Give me a number: "))
+    if num % 15 == 0: 
+        print(f"{num} gets Fizz Buzz")
+    elif num % 3 == 0: 
+        print(f"{num} gets Fizz")
+    elif num % 5 == 0: 
+        print(f"{num} gets Buzz")
+    else: 
+        print(f"{num} is boring")
+
+fizzbuzz()
